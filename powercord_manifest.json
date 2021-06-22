@@ -1,0 +1,9 @@
+{
+    "name": "NordCord",
+    "description": "A truer to discord experience that has some QOL changes like a less intrusive scrollbar, a rectangular message box, less in-your-face nitro stuff, and the Nord color sceme",
+    "version": "1.0.0",
+    "author": "Dapper Core#3723",
+    "theme": "index.scss",
+    "consent": "true",
+    "license": "MIT"
+}
