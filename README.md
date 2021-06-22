@@ -8,7 +8,8 @@ Featuring:
 * The removal of the titlebar for a cleaner look over all
 * A more minimalistic top area
 # INSTALLATION FOR POWERCORD
-Use the Following Command in your powercord directory to install the theme. `git clone https://github.com/DapperCore/NordCord`
+Use the Following Command in your powercord directory to install the theme: <br>
+`git clone https://github.com/DapperCore/NordCord`
 
 # SCREENSHOT
 ![image](https://user-images.githubusercontent.com/55637354/123010828-58499980-d38d-11eb-8511-90a71ba8c298.png)
