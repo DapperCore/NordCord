@@ -19,4 +19,4 @@ git clone https://github.com/DapperCore/NordCord
 ```
 
 # SCREENSHOT
-![image](https://user-images.githubusercontent.com/55637354/123011851-32bd8f80-d38f-11eb-9088-7a74eef3374c.png)
+![image](https://user-images.githubusercontent.com/55637354/123015133-b11d3000-d395-11eb-8817-bec0f1b4077d.png)
