@@ -1,6 +1,6 @@
 {
     "name": "NordCord",
-    "description": "A close to native discord experience but with some QOL changes and a color makeover.
+    "description": "A close to native discord experience but with some QOL changes and a color makeover.",
     "version": "1.0.0",
     "author": "Dapper Core#3723",
     "theme": "index.scss",
