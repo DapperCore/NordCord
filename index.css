@@ -153,6 +153,33 @@ background-color: #a3be8c;
 }
 
 
+/* Puts the Home button in a reasonable area */
+ul[data-list-id="guildsnav"] > div[class^="scroller"] {
+    padding-top: 0 !important;
+}
+
+ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child > div {
+    box-shadow: var(--elevation-low);
+}
+
+ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child + div {
+    display: none; /* separator */
+}
+
+div[href="/channels/@me"]:not(:hover) > div {
+    background-color: transparent !important;
+}
+
+/* Hides the home button selection pill and blurple background when selected*/
+.pill-3N7f9r{
+    display:none !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background: none !important;
+}
+
+
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
   display: none;
