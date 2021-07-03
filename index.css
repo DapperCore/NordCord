@@ -179,6 +179,16 @@ div[href="/channels/@me"]:not(:hover) > div {
     background: none !important;
 }
 
+/* Pins the Home button */
+.tutorialContainer-2sGCg9 {
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(var(--background-tertiary) 100%, transparent);
+}
+.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
+.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: 58px;}
+.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
+
 
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
