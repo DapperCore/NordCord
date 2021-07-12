@@ -1,3 +1,20 @@
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
+
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+  display: none;
+}
+
+
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+  display: none;
+}
+
 /* Color stuff */ 
 .theme-dark {
   --header-primary: #ffffff !important;
@@ -152,7 +169,6 @@ background-color: #a3be8c;
   display: none;
 }
 
-
 /* Puts the Home button in a reasonable area */
 ul[data-list-id="guildsnav"] > div[class^="scroller"] {
     padding-top: 0 !important;
@@ -162,7 +178,7 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child > div {
     box-shadow: var(--elevation-low);
 }
 
-ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child + div {
+ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child + div > div[class^="guildSeparator"] {
     display: none; /* separator */
 }
 
@@ -188,21 +204,3 @@ div[href="/channels/@me"]:not(:hover) > div {
 .guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
 .guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: 58px;}
 .guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
-
-
-/* Hide Nitro gift button */
-button[aria-label="Send a gift"] {
-  display: none;
-}
-
-
-/* Hide GIF picker button */
-button[aria-label="Open GIF picker"] {
-  display: none;
-}
-
-
-/* Hide sticker picker button */
-button[aria-label="Open sticker picker"] {
-  display: none;
-}
