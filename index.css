@@ -202,5 +202,4 @@ div[href="/channels/@me"]:not(:hover) > div {
     background: linear-gradient(var(--background-tertiary) 100%, transparent);
 }
 .guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: 58px;}
 .guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
