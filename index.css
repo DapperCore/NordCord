@@ -112,9 +112,8 @@
      min-height: 53px;
 }
 /* Hides server banners */
- [style="height: 84px;
-"]{
-     display:none !important;
+#channels > div > div:nth-child(1){
+    display: none;
 }
  .animatedContainer-2laTjx, .bannerImage-ubW8K- {
      box-shadow: 0px 2px #262c36;
