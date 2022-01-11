@@ -102,6 +102,11 @@
  .inner-NQg18Y {
      padding-top: 4px;
 }
+.base-3bcbY3 {
+     /* typing and slowmode stuff */
+     top: -24px; /* height is 24px */
+     background-color: var(--background-primary);
+}
  .scrollableContainer-15eg7h {
      border-radius: 0px;
      min-height: 53px;
