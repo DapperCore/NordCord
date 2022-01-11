@@ -163,13 +163,17 @@ button[aria-label="Send a gift"] {
   
   
   /* Hides various buttons along the top */
-  .toolbar-1t6TWx > div:last-of-type {display: none;}
-  .toolbar-1t6TWx [aria-label="Help"] {
+  .toolbar-3_r2xA > div:last-of-type {display: none;}
+  .toolbar-3_r2xA [aria-label="Help"] {
     display: none;
   }
-  .toolbar-1t6TWx [role="switch"] {
+  .toolbar-3_r2xA [aria-label="Notification Settings"] {
     display: none;
   }
+  .toolbar-3_r2xA [role="switch"] {
+    display: none;
+  }
+
   
   /* Puts the Home button in a reasonable area */
   ul[data-list-id="guildsnav"] > div[class^="scroller"] {
