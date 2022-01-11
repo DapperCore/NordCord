@@ -32,11 +32,9 @@ button[aria-label="Send a gift"] {
     --background-secondary-alt: #2e3440 !important;
     --background-tertiary: #2e3440 !important;
     --background-accent: #3B4252 !important;
-    --background-floating: #18191d !important;
-    c:  !important;
+    --background-floating: #2e3440 !important;
     --background-mobile-secondary: #2e3035 !important;
     --background-mobile-secondary: #2e3440 !important;
-    136:  !important;
     --background-modifier-hover: #434c5e !important;
     --background-modifier-active: #3b4252 !important;
     --background-modifier-selected: #3b4252 !important;
@@ -147,7 +145,7 @@ button[aria-label="Send a gift"] {
     z-index:2;
     background:var(--secondary-background-alt)!important;margin:0px;
   }
-  .platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{
+  .platform-win .children-19S4PO,.platform-win .toolbar-3_r2xA{
     z-index:1000000;
   }
   .winButton-iRh8-Z:hover {
@@ -173,7 +171,6 @@ button[aria-label="Send a gift"] {
   .toolbar-3_r2xA [role="switch"] {
     display: none;
   }
-
   
   /* Puts the Home button in a reasonable area */
   ul[data-list-id="guildsnav"] > div[class^="scroller"] {
@@ -210,3 +207,7 @@ button[aria-label="Send a gift"] {
   .guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;}
   .guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0px;}
   
+  /* Fixes the user popout message box color */
+  .input-2z42oC {
+    background-color: var(--background-accent);
+  }
