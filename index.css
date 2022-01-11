@@ -134,7 +134,19 @@ background-color: #a3be8c;
 .bannerVisible-2ZE_qG .header-2V-4Sw {
   filter: none;
 }
+.animatedContainer-2laTjx, .bannerImage-ubW8K- {
+    box-shadow: 0px 2px #262c36;
+    background-color: var(--background-primary);
+    height: 48px;
+}
+.bannerImage-ubW8K- {
+    display: none;
+}
 
+/* Recolors friends list to match the background color */
+.peopleColumn-1wMU14 {
+  background: var(--background-primary);
+}
 
 /* Gets rid of the ugly title bar */ 
 .typeWindows-1za-n7{
