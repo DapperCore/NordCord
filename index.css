@@ -230,7 +230,6 @@ div[href="/channels/@me"]:not(:hover) > div {
 [id*="message-reactions"] {
     width: 100%;
 }
-/* fix hardcoded colors */
 .theme-dark .container-2McqkF{
     background: var(--background-floating);
     border-radius: var(--context-menu-radius);
@@ -248,6 +247,13 @@ div[href="/channels/@me"]:not(:hover) > div {
 .body-2khErn {
     background: var(--background-floating);
 }
+
 .markup-eYLPri code{
     background: var(--background-floating);
+}
+
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: #fff;
+    background-color: var(--brand-experiment);
 }
