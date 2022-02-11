@@ -275,7 +275,7 @@ div[href="/channels/@me"]:not(:hover) > div {
 /* fixes channel banner area */
 
 [style="height: 84px;"] {
-    height: 0px !important;
+    display: none
 }
 
 
