@@ -257,3 +257,12 @@ div[href="/channels/@me"]:not(:hover) > div {
     color: #fff;
     background-color: var(--brand-experiment);
 }
+
+
+.animatedBannerHoverLayer-129r1v{
+    display: none;
+}
+
+ul[aria-label="Channels"] {
+    top: -84px;
+}
