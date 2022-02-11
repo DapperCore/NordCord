@@ -234,6 +234,15 @@ div[href="/channels/@me"]:not(:hover) > div {
     background: var(--background-floating);
     border-radius: var(--context-menu-radius);
 }
+/* Align threads with their spines */
+[id*="message-accessories-"]::after {
+    content: "";
+    width: 100%;
+    order: 1;
+}
+.container-3i3IzO {
+    order: 2;
+}
 
 .theme-dark .option-2KkUJO:after {
     background: none;
