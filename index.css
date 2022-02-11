@@ -272,6 +272,47 @@ div[href="/channels/@me"]:not(:hover) > div {
     display: none;
 }
 
+/* fixes channel banner area */
+
 ul[aria-label="Channels"] {
     top: -84px;
 }
+
+
+/* moves and recolors the "Find a Server" and "Explore Public Server" buttons */
+.textContainer-36wgKK{
+    background-color: var(--background-floating);
+}
+
+.footer-GXWBBp{
+    background-color: var(--background-floating);
+}
+
+
+.scroller-3X7KbA {
+  contain: unset;
+  padding-bottom: 190px;
+}
+.scroller-3X7KbA::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    width: 72px;
+    height: 190px;
+    background: linear-gradient(transparent, var(--background-tertiary) 30%);
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    position: fixed;
+    bottom: 58px;
+    contain: none;
+    z-index: 1;
+}
+
+.circleIcon-3489FI{
+filter: grayscale(100%) brightness(135%);
