@@ -274,8 +274,8 @@ div[href="/channels/@me"]:not(:hover) > div {
 
 /* fixes channel banner area */
 
-ul[aria-label="Channels"] {
-    top: -84px;
+[style="height: 84px;"] {
+    height: 0px !important;
 }
 
 
