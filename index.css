@@ -230,6 +230,9 @@ div[href="/channels/@me"]:not(:hover) > div {
 [id*="message-reactions"] {
     width: 100%;
 }
+.messageAttachment-CZp8Iv {
+    width: unset;
+}
 .theme-dark .container-2McqkF{
     background: var(--background-floating);
     border-radius: var(--context-menu-radius);
