@@ -319,3 +319,17 @@ div[href="/channels/@me"]:not(:hover) > div {
 
 .circleIcon-3489FI{
 filter: grayscale(100%) brightness(135%);
+
+/* Removes the new, 'public' button that exists over the banner area */
+.communityInfoContainer-1dMVpU{
+    display: none;
+}
+
+/* Removes the Nitro goal */
+.container-2giAcK{
+    display: none;
+}
+
+div[style="height: 16px;"]{
+    display: none;
+}
