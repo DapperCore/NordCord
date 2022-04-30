@@ -319,6 +319,7 @@ div[href="/channels/@me"]:not(:hover) > div {
 
 .circleIcon-3489FI{
 filter: grayscale(100%) brightness(135%);
+}
 
 /* Removes the new, 'public' button that exists over the banner area */
 .communityInfoContainer-1dMVpU{
@@ -331,5 +332,21 @@ filter: grayscale(100%) brightness(135%);
 }
 
 div[style="height: 16px;"]{
+    display: none;
+}
+
+/* Fixes server scroll area */
+.tutorialContainer-1pL9QS{
+    position: fixed;
+    z-index:1;
+    background-color: var(--background-primary);
+}
+
+[aria-label="Servers"]{
+    margin-top: 60px;
+}
+
+/* rehides nitro gift icon */
+[aria-label="Send a gift or Boost this server"]{
     display: none;
 }
