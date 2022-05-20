@@ -190,7 +190,7 @@ div[href="/channels/@me"]:not(:hover) > div {
 }
 /* Hides the home button selection pill and blurple background when selected*/
 .childWrapper-1j_1ub{
-    background: none;
+    background-color: var(--background-primary) !important;
 }
 
 .pill-L_aLMQ{
