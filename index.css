@@ -57,6 +57,7 @@ button[aria-label="Open sticker picker"] {
     --deprecated-text-input-border-hover: #040405 !important;
     --deprecated-text-input-border-disabled: #202225 !important;
     --deprecated-text-input-prefix: #dcddde !important;
+
 }
 /* Changes font to Lexend Deca */
 * {
@@ -127,40 +128,7 @@ button[aria-label="Open sticker picker"] {
 .peopleColumn-1wMU14 {
     background: var(--background-primary);
 }
-/* Gets rid of the ugly title bar */
-.typeWindows-1za-n7{
-    width:calc(100% - calc(72px + 240px));
-    position: fixed;
-    right: 0px;
-    height:46px;
-    z-index:2;
-    background:var(--secondary-background-alt)!important;
-   margin:0px;
-}
-.platform-win .children-19S4PO,.platform-win .toolbar-3_r2xA{
-    z-index:1000000;
-}
-.winButton-iRh8-Z:hover {
-    background-color: #2E3440;
-}
-.winButton-iRh8-Z{
-   top:12px;
-   right:5px;
-   z-index:67438274832798;
-}
-.wordmarkWindows-1v0lYD{
-   display: none;
-}
-.platform-win .sidebar-2K8pFh {
-   border-radius: 0px!important;
-}
-.platform-win .title-3qD0b-{
-    width:calc(100% - 80px);
-}
-.typeWindows-1za-n7 {
-   !important;
-   margin:0px;
-}
+
 /* Hides various buttons along the top */
 .toolbar-3_r2xA > div:last-of-type {
    display: none;
@@ -187,14 +155,6 @@ ul[data-list-id="guildsnav"] > div[class^="scroller"] > div:first-child + div > 
 }
 div[href="/channels/@me"]:not(:hover) > div {
     background-color: transparent !important;
-}
-/* Hides the home button selection pill and blurple background when selected*/
-.childWrapper-1j_1ub{
-    background-color: var(--background-primary) !important;
-}
-
-.pill-L_aLMQ{
-    display: none;
 }
 
 /* Pins the Home button */
@@ -341,14 +301,31 @@ div[style="height: 16px;"]{
 .tutorialContainer-1pL9QS{
     position: fixed;
     z-index:1;
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
 }
 
-[aria-label="Servers"]{
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(2){
     margin-top: 60px;
 }
+
+/* Adds a gradient to the top area when scrolling (Special thanks to Pablo#2846) */
+.scroller-3X7KbA::after {
+    content: "";
+    position: fixed;
+    top: 50px;
+    width: 72px;
+    height: 15px;
+    background: linear-gradient(var(--background-tertiary) 30%, transparent);
+    z-index: 1;
+}
+
 
 /* rehides nitro gift icon */
 [aria-label="Send a gift or Boost this server"]{
     display: none;
+}
+
+/* Offsets the NEW pill so it's underneath the home button (Special thanks to Pablo#2846)*/
+.unreadMentionsIndicatorTop-2bTgUU{
+    top: 46px;
 }
