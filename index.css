@@ -125,7 +125,7 @@ button[aria-label="Open sticker picker"] {
  
  .container-1-ERn5 {
      background-color: var(--background-primary);
-     box-shadow: 0px 2px #262c36;
+     box-shadow: var(--elevation-low) !important;
      z-index: 100;
  }
  
@@ -397,4 +397,13 @@ div[style="height: 16px;"]{
 /* Offsets the NEW pill so it's underneath the home button (Special thanks to Pablo#2846)*/
 .unreadMentionsIndicatorTop-2bTgUU{
     top: 46px;
+}
+
+
+.content-1jQy2l:before {
+    display: none;
+}
+
+.title-31SJ6t{
+    box-shadow: var(--elevation-low);
 }
