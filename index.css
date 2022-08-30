@@ -408,9 +408,6 @@ div[style="height: 16px;"]{
     box-shadow: var(--elevation-low);
 }
 
-.profileBadges-31rDHI{
-    background-color: #262a31;
-}
-.overlayBackground-arbZMT{
-    background-color: #262a31;
+.profileBadges-31rDHI, .overlayBackground-arbZMT, .userPopoutInnerWithoutTheme-23vLID:before{
+    background-color: var(--background-floating);
 }
