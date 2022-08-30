@@ -220,7 +220,7 @@ div[href="/channels/@me"]:not(:hover) > div {
     order: 2;
 }
 
-.theme-dark .option-2KkUJO:after {
+.theme-dark .option-2KkUJO::after {
     background: none;
 }
 .theme-dark .autocomplete-3NRXG8 {
@@ -410,4 +410,9 @@ div[style="height: 16px;"]{
 
 .profileBadges-31rDHI, .overlayBackground-arbZMT, .userPopoutInnerWithoutTheme-23vLID::before{
     background-color: var(--background-floating);
+}
+
+
+.option-ayUoaq::after{
+    display: none;
 }
