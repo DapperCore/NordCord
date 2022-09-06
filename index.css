@@ -416,3 +416,16 @@ div[style="height: 16px;"]{
 .option-ayUoaq::after{
     display: none;
 }
+
+.userPopoutThemed-3BZ4by {
+    --profile-gradient-primary-color: var(--background-floating) !important;
+    --profile-gradient-secondary-color: var(--background-floating) !important;
+    --profile-gradient-button-color: var(--button-secondary-background) !important;
+    --profile-gradient-overlay-color: transparent !important;
+    --profile-body-background-color: var(--background-floating) !important;
+    --profile-body-divider-color: var(--background-modifier-accent) !important;
+    --profile-body-divider-opacity: 1.0 !important;
+    --profile-avatar-border-color: var(--background-floating) !important;
+    --profile-message-input-border-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-background-color: var(--background-secondary-alt)!important;
+}
