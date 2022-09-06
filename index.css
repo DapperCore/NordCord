@@ -428,4 +428,5 @@ div[style="height: 16px;"]{
     --profile-avatar-border-color: var(--background-floating) !important;
     --profile-message-input-border-color: var(--background-secondary-alt) !important;
     --profile-role-pill-background-color: var(--background-secondary-alt)!important;
+    padding: 0px !important;
 }
